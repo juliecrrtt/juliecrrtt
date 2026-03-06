@@ -1,3 +1,10 @@
+---
+layout: home
+title: "Julie Carretti - Robotics Portfolio"
+permalink: /
+---
+
+
 # Julie Carretti - Portfolio
 **Master’s Student in Robotics at EPFL**
 
