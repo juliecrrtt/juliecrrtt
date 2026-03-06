@@ -6,8 +6,6 @@ show_title: false
 show_permalink: false
 ---
 
-**Master’s Student in Robotics at EPFL**
-
 Welcome to my GitHub portfolio! Here, I showcase my academic projects.
 
 ## About Me
