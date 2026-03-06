@@ -58,7 +58,7 @@ plugins:
 
 author:
   name   : "Julie Carretti"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/jc.jpg"
   bio    : "Master's student in Robotics at EPFL. Interested in computer vision and machine learning"
   location : "Lausanne, Switzerland"
   links:
