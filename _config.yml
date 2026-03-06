@@ -90,6 +90,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      show_title: false
 
 category_archive:
   type: liquid
