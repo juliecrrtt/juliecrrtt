@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 title: "Julie Carretti - Robotics Portfolio"
 permalink: /
 ---
