@@ -73,7 +73,7 @@ author:
 footer:
   links:
     - label: "Email"
-      icon: "fab fa-fw fa-envelope"
+      icon: "fas fa-fw fa-envelope"
       url: "mailto:julie.carretti@epfl.ch"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
