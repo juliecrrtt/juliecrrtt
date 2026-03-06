@@ -8,9 +8,11 @@ show_permalink: false
 
 Welcome to my GitHub portfolio! Here, I showcase my academic projects.
 
-## About Me
--  **Master in Robotics** – 2nd year  
--  **Bachelor in Microenginoreering** 
+---
+
+## Education
+- Master in Robotics – EPFL, 2nd year
+- Bachelor in Microengineering – EPFL 
 
 ---
 
