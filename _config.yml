@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This website presents my projects in robotics, machine learning, computer vision and control, developed during my studies and research work.
 # twitter_username: username
 github_username: juliecrrtt
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dirt
 search: false
 
 # Build settings
@@ -61,26 +61,26 @@ author:
   location : "Lausanne, Switzerland"
   links:
     - label: "Email"
-      icon: "fab fa-fw fa-envelope"
+      icon: "fas fa-fw fa-envelope"
       url: "mailto:julie.carretti@epfl.ch"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/juliecrrtt"
-    - label: "EPFL"
-      icon: "fab fa-fw fa-university"
-      url: "https://people.epfl.ch/julie.carretti"
-
-footer:
-  links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/juliecrrtt"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/julie-carretti-b6a575331"
+
+footer:
+  links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope"
+      icon: "fab fa-fw fa-envelope"
       url: "mailto:julie.carretti@epfl.ch"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/juliecrrtt"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/julie-carretti-b6a575331"
 
 defaults:
   # _pages
