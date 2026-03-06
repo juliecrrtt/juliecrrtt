@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Julie Carretti - Robotics Portfolio"
+<!--title: "Julie Carretti - Robotics Portfolio"-->
 permalink: /
 author_profile: true
 ---
