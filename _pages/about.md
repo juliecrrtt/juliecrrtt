@@ -2,6 +2,8 @@
 layout: single
 permalink: /
 author_profile: true
+show_title: true
+show_permalink: false
 ---
 
 
