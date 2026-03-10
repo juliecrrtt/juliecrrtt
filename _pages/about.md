@@ -18,6 +18,28 @@ Welcome to my GitHub portfolio! Here, I showcase my academic projects.
 
 ## Key Projects
 
+
+<div class="project-card">
+
+<img src="/assets/images/mk.jpeg" 
+     alt="Megakaryocyte detection" 
+     class="project-image">
+
+<h3>
+<a href="https://github.com/juliecrrtt/MK-project">
+Megakaryocyte Detection – EPFL & CHUV
+</a>
+</h3>
+
+<p><strong>Autumn 2025</strong></p>
+
+<p>
+QuPath extension for automated detection and morphology analysis of megakaryocytes.
+</p>
+
+</div>
+
+
 ### [Megakaryocyte Detection - EPFL & CHUV](https://github.com/juliecrrtt/MK-project) 
 **Autumn 2025**<br>
 Developed a **QuPath extension** for automated **detection and analysis of megakaryocytes** in histopathology slides. 
