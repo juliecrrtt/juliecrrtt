@@ -155,10 +155,11 @@
 
 
 @media (min-width: 1024px) {
-  .page {
-    width: 85%;
-    padding-right: 0;
-    max-width: none;
+    .page {
+    width: 75% !important;
+    padding-right: 0 !important;
+    max-width: none !important;
+    margin-left: 320px !important;
   }
 
   .page__inner-wrap {
