@@ -95,3 +95,21 @@ Estimated the **position of a Thymio robot** using an **Extended Kalman Filter (
 | **Haptic Paddle Interface** | Hall sensor filtering, cable-driven control around a screw, dynamic behavior study | Python, control, sensors | |
 | **Industrial Robotics – ABB & SCARA** | Observed and used ABB and SCARA robots in an industrial context | Industrial robotics, programming | |--->
 
+
+
+
+
+<script>
+document.querySelectorAll('.toggle-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const details = btn.previousElementSibling; // the .more-details div
+    if(details.style.display === 'block') {
+      details.style.display = 'none';
+      btn.textContent = 'More Info';
+    } else {
+      details.style.display = 'block';
+      btn.textContent = 'Less Info';
+    }
+  });
+});
+</script>
