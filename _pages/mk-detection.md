@@ -6,7 +6,7 @@ author_profile: false
 classes: wide
 ---
 
-<a href="/" class="back-link">← Back to Portfolio</a>
+<a href="/juliecrrtt/" class="back-link">← Back to Portfolio</a>
 
 <div class="project-detail-header">
   <img src="/assets/images/mk.jpeg" alt="Megakaryocyte detection" class="project-detail-img">
