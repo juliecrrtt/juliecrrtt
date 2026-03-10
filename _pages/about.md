@@ -20,10 +20,11 @@ Welcome to my GitHub portfolio! Here, I showcase my academic projects.
 
 
 <div class="project-card">
-
-<img src="/assets/images/mk.jpeg" 
+     
+<img src="{{ '/assets/images/mk.jpeg' | relative_url }}" 
      alt="Megakaryocyte detection" 
      class="project-image">
+
 
 <h3>
 <a href="https://github.com/juliecrrtt/MK-project">
