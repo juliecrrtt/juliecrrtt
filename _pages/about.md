@@ -19,7 +19,7 @@ Welcome to my GitHub portfolio! Here, I showcase my academic projects.
 
 ## Key Projects
 
-<a href="/mk-detection/" class="project-card-horizontal" aria-label="Megakaryocyte Detection project">
+<div class="project-card-horizontal" onclick="window.location='/mk-detection/'" style="cursor:pointer;">
   <img src="{{ '/assets/images/mk.jpeg' | relative_url }}" alt="Megakaryocyte detection">
   <div class="project-content">
     <h3>Megakaryocyte Detection – EPFL & CHUV</h3>
@@ -28,7 +28,7 @@ Welcome to my GitHub portfolio! Here, I showcase my academic projects.
     <p><strong>Tools:</strong> Cellpose, StarDist, ANN classifiers, DBSCAN</p>
     <span class="card-arrow">View details →</span>
   </div>
-</a>
+</div>
 
 <div class="project-card-horizontal project-card-inactive">
   <div class="project-content">
