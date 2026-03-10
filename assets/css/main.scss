@@ -1,10 +1,8 @@
 ---
 ---
-
 @import "minimal-mistakes";
 
 /* ===== Project Horizontal Card ===== */
-
 .project-card-horizontal {
   display: flex;
   align-items: center;
@@ -15,11 +13,19 @@
   background-color: #f9f9f9;
   box-shadow: 0 4px 12px rgba(0,0,0,0.06);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;           /* signals the whole card is clickable */
+  user-select: none;         /* avoids text selection on rapid clicks */
 }
 
 .project-card-horizontal:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Highlight the card when expanded */
+.project-card-horizontal.is-open {
+  background-color: #f0f7ff;
+  box-shadow: 0 8px 24px rgba(0, 122, 204, 0.12);
 }
 
 .project-card-horizontal img {
@@ -40,6 +46,29 @@
   margin-bottom: 0.5rem;
 }
 
+/* Hidden extra details — shown via JS */
+.more-details {
+  display: none;
+  margin-top: 0.5rem;
+  border-top: 1px solid #dde6f0;
+  padding-top: 0.75rem;
+  animation: fadeIn 0.25s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Small hint text at the bottom of the card */
+.card-hint {
+  display: inline-block;
+  margin-top: 0.6rem;
+  font-size: 0.78rem;
+  color: #007acc;
+  font-style: italic;
+}
+
 @media (max-width: 768px) {
   .project-card-horizontal {
     flex-direction: column;
@@ -49,22 +78,4 @@
   .project-card-horizontal img {
     width: 100%;
   }
-}
-
-
-.more-details {
-  display: none;        /* hidden by default */
-  margin-top: 0.5rem;
-}
-.toggle-btn {
-  margin-top: 0.8rem;
-  background: #007acc;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-  cursor: pointer;
-}
-.toggle-btn:hover {
-  background: #005fa3;
 }
