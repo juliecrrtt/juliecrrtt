@@ -4,7 +4,6 @@ permalink: /
 author_profile: true
 show_title: false
 show_permalink: false
-classes: wide
 ---
 
 Welcome to my GitHub portfolio! Here, I showcase my academic projects.
