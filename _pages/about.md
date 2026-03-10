@@ -40,6 +40,19 @@ Welcome to my GitHub portfolio! Here, I showcase my academic projects.
     <p>
       <strong>Tools:</strong> Cellpose, StarDist, ANN classifiers, DBSCAN
     </p>
+    <!-- Hidden extra details -->
+    <div class="more-details">
+      <p>
+        Built pipelines using <strong>Cellpose</strong> for deep learning-based cell segmentation.  
+        Implemented nucleus and osteostructure detection using <strong>StarDist</strong> and <strong>ANN pixel classifiers</strong>.  
+        Developed quantitative MK morphology metrics: cell area, clustering patterns (DBSCAN), lobulation, and distance to bone structures.  
+        Enabled automated, reproducible analysis to support clinical research on bone marrow tissue.
+      </p>
+    </div>
+
+    <button class="toggle-btn">More Info</button>
+
+    
   </div>
 
 </div>
