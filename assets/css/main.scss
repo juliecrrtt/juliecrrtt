@@ -2,36 +2,62 @@
 ---
 @import "minimal-mistakes";
 
+/* ===== WIDER LAYOUT ===== */
+@media (min-width: 1024px) {
+  .page__inner-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* classes: wide removes the right sidebar gutter */
+  .layout--single.wide .page,
+  .wide .page {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
 /* ===== Project Horizontal Card ===== */
 .project-card-horizontal {
   display: flex;
   align-items: center;
   gap: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   padding: 1.2rem;
   border-radius: 12px;
   background-color: #f9f9f9;
   box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  cursor: pointer;           /* signals the whole card is clickable */
-  user-select: none;         /* avoids text selection on rapid clicks */
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+
+  /* Reset <a> default styles */
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 .project-card-horizontal:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 20px rgba(0, 122, 204, 0.15);
+  background-color: #f0f7ff;
 }
 
-/* Highlight the card when expanded */
-.project-card-horizontal.is-open {
-  background-color: #f0f7ff;
-  box-shadow: 0 8px 24px rgba(0, 122, 204, 0.12);
+/* Inactive cards (no detail page yet) */
+.project-card-horizontal.project-card-inactive {
+  cursor: default;
+  opacity: 0.82;
+}
+
+.project-card-horizontal.project-card-inactive:hover {
+  transform: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  background-color: #f9f9f9;
 }
 
 .project-card-horizontal img {
-  width: 260px;
+  width: 220px;
   border-radius: 10px;
   flex-shrink: 0;
+  object-fit: cover;
 }
 
 .project-content {
@@ -40,42 +66,80 @@
 
 .project-content h3 {
   margin-top: 0;
+  margin-bottom: 0.3rem;
+  color: #222;
 }
 
 .project-content p {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
+  color: #444;
 }
 
-/* Hidden extra details — shown via JS */
-.more-details {
-  display: none;
-  margin-top: 0.5rem;
-  border-top: 1px solid #dde6f0;
-  padding-top: 0.75rem;
-  animation: fadeIn 0.25s ease;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-4px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-
-/* Small hint text at the bottom of the card */
-.card-hint {
+.card-arrow {
   display: inline-block;
-  margin-top: 0.6rem;
-  font-size: 0.78rem;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
   color: #007acc;
-  font-style: italic;
+  font-weight: 600;
+  transition: letter-spacing 0.15s ease;
 }
+
+.project-card-horizontal:hover .card-arrow {
+  letter-spacing: 0.04em;
+}
+
+/* ===== Project Detail Page ===== */
+.back-link {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  color: #007acc;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.back-link:hover { text-decoration: underline; }
+
+.project-detail-header {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.project-detail-img {
+  width: 280px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.project-detail-meta p { margin-bottom: 0.4rem; }
+
+.github-btn {
+  display: inline-block;
+  margin-top: 0.8rem;
+  background: #007acc;
+  color: white !important;
+  text-decoration: none;
+  padding: 0.5rem 1.1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
+
+.github-btn:hover { background: #005fa3; }
 
 @media (max-width: 768px) {
   .project-card-horizontal {
     flex-direction: column;
     text-align: center;
   }
-
-  .project-card-horizontal img {
-    width: 100%;
-  }
+  .project-card-horizontal img { width: 100%; }
+  .project-detail-header { flex-direction: column; }
+  .project-detail-img { width: 100%; }
 }
