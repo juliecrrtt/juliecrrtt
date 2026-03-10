@@ -19,7 +19,7 @@ Welcome to my GitHub portfolio! Here, I showcase my academic projects.
 
 ## Key Projects
 
-<a href="/projects/mk-detection/" class="project-card-horizontal" aria-label="Megakaryocyte Detection project">
+<a href="/mk-detection/" class="project-card-horizontal" aria-label="Megakaryocyte Detection project">
   <img src="{{ '/assets/images/mk.jpeg' | relative_url }}" alt="Megakaryocyte detection">
   <div class="project-content">
     <h3>Megakaryocyte Detection – EPFL & CHUV</h3>
