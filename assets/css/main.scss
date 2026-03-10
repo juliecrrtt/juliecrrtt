@@ -50,3 +50,21 @@
     width: 100%;
   }
 }
+
+
+.more-details {
+  display: none;        /* hidden by default */
+  margin-top: 0.5rem;
+}
+.toggle-btn {
+  margin-top: 0.8rem;
+  background: #007acc;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.toggle-btn:hover {
+  background: #005fa3;
+}
