@@ -156,8 +156,17 @@
 
 @media (min-width: 1024px) {
   .page {
-    width: 80%;
+    width: 85%;
     padding-right: 0;
+    max-width: none;
+  }
+
+  .page__inner-wrap {
+    max-width: none;
+  }
+
+  .project-card-horizontal {
+    max-width: none;
+    width: 100%;
   }
 }
-
