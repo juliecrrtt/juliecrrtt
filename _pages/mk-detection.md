@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Megakaryocyte Detection – EPFL & CHUV"
-permalink: /mk-detection/
+permalink: /_pages/mk-detection/
 author_profile: false
 classes: wide
 ---
