@@ -19,7 +19,7 @@ Welcome to my GitHub portfolio! Here, I showcase my academic projects.
 
 ## Key Projects
 
-<div class="project-card-horizontal" onclick="window.location='/mk-detection/'" style="cursor:pointer;">
+<div class="project-card-horizontal" onclick="window.location='/juliecrrtt/mk-detection/'" style="cursor:pointer;">
   <img src="{{ '/assets/images/mk.jpeg' | relative_url }}" alt="Megakaryocyte detection">
   <div class="project-content">
     <h3>Megakaryocyte Detection – EPFL & CHUV</h3>
