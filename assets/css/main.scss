@@ -143,3 +143,12 @@
   .project-detail-header { flex-direction: column; }
   .project-detail-img { width: 100%; }
 }
+
+
+.page__content {
+  width: 100%;
+}
+
+.page {
+  width: calc(100% - 300px); /* garde de la place pour le sidebar */
+}
