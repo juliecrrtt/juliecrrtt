@@ -14,6 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Julie Carretti - Robotics Portfolio
+baseurl: "/juliecrrtt"
+url: "https://juliecrrtt.github.io"
 email: julie.carretti@epfl.ch
 description: >- # this means to ignore newlines until "baseurl:"
   Portfolio of Julie Carretti, Masters student in Robotics at EPFL.
