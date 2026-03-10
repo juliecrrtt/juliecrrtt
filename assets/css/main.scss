@@ -121,3 +121,11 @@
   .project-detail-header { flex-direction: column; }
   .project-detail-img { width: 100%; }
 }
+
+@media (min-width: 1024px) {
+  .page__inner-wrap {
+    padding-left: 0 !important;
+    padding-right: 2em !important;
+    width: 100% !important;
+  }
+}
