@@ -9,7 +9,7 @@ classes: wide
 <a href="/juliecrrtt/" class="back-link">← Back to Portfolio</a>
 
 <div class="project-detail-header">
-  <img src="{{ '/assets/images/mk.jpeg' | relative_url }}" alt="Megakaryocyte detection" style="max-width: 500px; height: auto;">
+  <img src="{{ '/assets/images/mk.jpeg' | relative_url }}" alt="Megakaryocyte detection" style="max-width: 100px; height: auto;">
   <div class="project-detail-meta">
     <p><strong>Period:</strong> Autumn 2025</p>
     <p><strong>Context:</strong> EPFL × CHUV collaborative project</p>
