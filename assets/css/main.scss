@@ -129,3 +129,15 @@
     width: 100% !important;
   }
 }
+
+
+.mk-fullwidth .page__inner-wrap {
+  max-width: 100%;
+}
+
+.mk-fullwidth .page__content {
+  max-width: 100%;
+  width: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
