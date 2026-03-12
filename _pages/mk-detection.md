@@ -3,7 +3,7 @@ layout: single
 title: "Megakaryocyte Detection – EPFL & CHUV"
 permalink: /mk-detection/
 author_profile: false
-classes: wide
+classes: wide mk-fullwidth
 ---
 
 <a href="/juliecrrtt/" class="back-link">← Back to Portfolio</a>
