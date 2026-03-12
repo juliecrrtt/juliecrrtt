@@ -8,7 +8,7 @@ classes: wide
 
 <a href="/juliecrrtt/" class="back-link">← Back to Portfolio</a>
 
-<div class="project-detail-header">
+<div class="project-card-horizontal">
   <img src="{{ '/assets/images/mk.jpeg' | relative_url }}" alt="Megakaryocyte detection" style="max-width: 200px; height: auto;">
   <div class="project-detail-meta">
     <p><strong>Period:</strong> Autumn 2025</p>
@@ -19,6 +19,8 @@ classes: wide
     </a>
   </div>
 </div>
+
+
 
 ## Overview
 
