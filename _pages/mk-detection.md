@@ -9,7 +9,7 @@ classes: wide
 <a href="/juliecrrtt/" class="back-link">← Back to Portfolio</a>
 
 <div class="project-detail-header">
-  <img src="/assets/images/mk.jpeg" alt="Megakaryocyte detection" class="project-detail-img">
+  <img src="{{ '/assets/images/mk.jpeg' | relative_url }}" alt="Megakaryocyte detection">
   <div class="project-detail-meta">
     <p><strong>Period:</strong> Autumn 2025</p>
     <p><strong>Context:</strong> EPFL × CHUV collaborative project</p>
@@ -22,18 +22,18 @@ classes: wide
 
 ## Overview
 
-Developed a **QuPath extension** for automated **detection and analysis of megakaryocytes (MK)** in bone marrow histopathology slides, enabling reproducible clinical research at CHUV.
+Developed a **QuPath extension** for automated **detection and analysis of megakaryocytes (MK)** in bone marrow histopathology slides.
 
 ---
 
 ## Pipeline
 
-### 1. Cell Segmentation — Cellpose
+### 1. Cell Segmentation - Cellpose
 Built deep learning-based segmentation pipelines using **Cellpose** to detect and outline individual megakaryocytes from whole-slide images, handling variable staining and cell sizes.
 
-### 2. Nucleus & Structure Detection — StarDist & ANN
-- Implemented **nucleus detection** using **StarDist**, a star-convex polygon model well-suited to round/oval nuclei.
-- Applied **ANN pixel classifiers** to detect and segment surrounding **osteostructures** (bone trabeculae).
+### 2. Nucleus & Structure Detection - StarDist & ANN
+- **nucleus detection** using **StarDist**.
+- **osteostructures segmentation** using an **ANN pixel classifier** trained on custom annotations.
 
 ### 3. Morphology Metrics
 Developed a suite of quantitative descriptors per detected MK:
@@ -45,19 +45,13 @@ Developed a suite of quantitative descriptors per detected MK:
 | **Clustering (DBSCAN)** | Spatial grouping of MKs in the marrow |
 | **Distance to bone** | Proximity of each MK to bone structures |
 
-### 4. Output & Clinical Use
-Results are exported as structured tables and overlay annotations within QuPath, enabling pathologists to review, validate, and use data directly in clinical research workflows.
+## Extension & Clinical Integration
+The entire pipeline was integrated as a **fully deployable QuPath extension**, enabeling high accessibility for non-programming users.
 
----
+Key features include:
 
-## Key Challenges
+- **One-click execution** of the full analysis pipeline  
+- Automated computation of morphological and spatial metrics  
+- Interactive visualization of the detections  
+- Structured data export (tables + annotations) for downstream statistical analysis  
 
-- Handling **staining variability** across tissue slides
-- Tuning **DBSCAN parameters** (ε, min_samples) for sparse vs. dense MK distributions
-- Balancing **sensitivity vs. specificity** in nucleus vs. cytoplasm boundary detection
-
----
-
-## Results
-
-Achieved robust automated detection allowing **reproducible, high-throughput analysis** of bone marrow biopsies, reducing manual annotation time significantly.
