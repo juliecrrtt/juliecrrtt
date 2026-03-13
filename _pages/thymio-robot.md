@@ -17,13 +17,12 @@ classes: wide mk-fullwidth
 </div>
 
 <div style="margin: 2rem 0;">
-  <iframe 
-    src="https://drive.google.com/file/d/12JovnytnGXysf7drYBUTP0FnLpmFwXlm/view?usp=sharing" 
+  <video 
     width="100%" 
-    height="480" 
-    allow="autoplay"
-    style="border: none; border-radius: 8px;">
-  </iframe>
+    controls
+    style="border-radius: 8px;">
+    <source src="{{ '/assets/videos/thymio_demo.mp4' | relative_url }}" type="video/mp4">
+  </video>
 </div>
 
 Built a complete autonomous navigation system for a Thymio robot as part of the EPFL Basics of Mobile Robotics course. The system detects the robot's pose from an overhead camera, plans an optimal path through a mapped environment using A* and navigates to the goal with real-time 3D obstacle avoidance.
