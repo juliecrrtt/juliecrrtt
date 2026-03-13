@@ -21,7 +21,7 @@ classes: wide mk-fullwidth
     width="100%" 
     controls
     style="border-radius: 8px;">
-    <source src="{{ '/assets/videos/thymio_demo.mp4' | relative_url }}" type="video/mp4">
+    <source src="{{ '/assets/videos/Video_thymio.mp4' | relative_url }}" type="video/mp4">
   </video>
 </div>
 
