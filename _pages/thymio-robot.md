@@ -18,7 +18,7 @@ classes: wide mk-fullwidth
 
 <div style="margin: 2rem 0;">
   <iframe 
-    src="https://drive.google.com/file/d/12JovnytnGXysf7drYBUTP0FnLpmFwXlm/view?usp=drive_link" 
+    src="https://drive.google.com/file/d/12JovnytnGXysf7drYBUTP0FnLpmFwXlm/view?usp=sharing" 
     width="100%" 
     height="480" 
     allow="autoplay"
