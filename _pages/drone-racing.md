@@ -7,7 +7,7 @@ classes: wide mk-fullwidth
 ---
 
 <a href="/juliecrrtt/" class="back-link">← Back to Portfolio</a>
-
+<img src="{{ '/assets/images/drone.png' | relative_url }}" alt="Drone Racing" style="max-width: 200px; height: auto;">
 <div class="project-card-horizontal">
   <div class="project-detail-meta">
     <p><strong>Period:</strong> Spring 2025</p>
