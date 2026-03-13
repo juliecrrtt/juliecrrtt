@@ -55,3 +55,16 @@ Welcome to my GitHub portfolio! Here, I showcase my academic projects.
     <p><strong>Tools:</strong> Python, EKF, Sensor Fusion</p>
   </div>
 </div>
+
+
+
+<div class="project-card-horizontal" onclick="window.location='/juliecrrtt/drone-racing/'" style="cursor:pointer;">>
+  <div class="project-content">
+    <h3>Autonomous Drone Racing</h3>
+    <p><strong>Spring 2025</strong></p>
+    <p>Build an autonomous navigation pipeline for a quadrotor to complete a randomized gate race.</p>
+    <p>Implemented vision-based gate detection and tuned PID control for stable high speed flight in simulation and on hardware.</p>
+    <p><strong>Tools:</strong> Computer Vision, PID Control, Trajectory Tracking</p>
+    <span class="card-arrow">View details →</span>
+  </div>
+</div>
