@@ -46,7 +46,7 @@ Welcome to my GitHub portfolio! Here, I showcase my academic projects.
     <h3>Thymio Robot – EPFL</h3>
     <p><strong>Autumn 2024</strong></p>
     <p>Automonous navigation pipeline for the Thymio robot. Camera-based localization, A* path planning, EKF state estimation, local obstacle avoidance and Astolfi motion control.</p>
-    <p><strong>Tools:</strong> Computer visiom, EKF, Path planning, Mobile Robotics</p>
+    <p><strong>Tools:</strong> Computer Vision, EKF, Path Planning, Mobile Robotics</p>
     <span class="card-arrow">View details →</span>
   </div>
 </div>
