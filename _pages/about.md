@@ -41,6 +41,7 @@ Welcome to my GitHub portfolio! Here, I showcase my academic projects.
 </div>
 
 <div class="project-card-horizontal project-card-inactive">
+  <img src="{{ '/assets/images/thymio.png' | relative_url }}" alt="Thymio Robot">
   <div class="project-content">
     <h3>Thymio Robot (EKF Localization) – EPFL</h3>
     <p><strong>Autumn 2025</strong></p>
