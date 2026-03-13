@@ -22,38 +22,11 @@ classes: wide mk-fullwidth
 
 
 
-## Overview
+Built an automated pipeline for detecting and analyzing megakaryocytes (cells) in bone marrow histopathology slides, conducted as a Master's semester project at EPFL in collaboration with CHUV. 
 
-Developed a **QuPath extension** for automated **detection and analysis of megakaryocytes (MK)** in bone marrow histopathology slides.
+The pipeline integrates deep-learning based segmentation (**Cellpose** for cell segmentation, **Stardist** for nuclear detection) with a custom **ANN pixel classifier** for bone structure segmentation.
 
----
+Each detected cell is characterized by quantitative morphological and spatial features (area, nuclear lobulation, clustering via DBSCAN, distance to bone) implemented based on qualitative clinical tables. 
 
-## Pipeline
-
-### 1. Cell Segmentation - Cellpose
-Built deep learning-based segmentation pipelines using **Cellpose** to detect and outline individual megakaryocytes from whole-slide images, handling variable staining and cell sizes.
-
-### 2. Nucleus & Structure Detection - StarDist & ANN
-- **nucleus detection** using **StarDist**.
-- **osteostructures segmentation** using an **ANN pixel classifier** trained on custom annotations.
-
-### 3. Morphology Metrics
-Developed a suite of quantitative descriptors per detected MK:
-
-| Metric | Description |
-|---|---|
-| **Cell area** | Surface area of each MK |
-| **Lobulation** | Nuclear lobulation index |
-| **Clustering (DBSCAN)** | Spatial grouping of MKs in the marrow |
-| **Distance to bone** | Proximity of each MK to bone structures |
-
-## Extension & Clinical Integration
-The entire pipeline was integrated as a **fully deployable QuPath extension**, enabeling high accessibility for non-programming users.
-
-Key features include:
-
-- **One-click execution** of the full analysis pipeline  
-- Automated computation of morphological and spatial metrics  
-- Interactive visualization of the detections  
-- Structured data export (tables + annotations) for downstream statistical analysis  
+The complete system was deployed as a QuPath extension featuring one-click execution, interactive feature visualization and display of extracted cell features, making the analysis accessible to non-programming clinical users. 
 
