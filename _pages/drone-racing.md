@@ -12,7 +12,7 @@ classes: wide mk-fullwidth
   <div class="project-detail-meta">
     <p><strong>Period:</strong> Spring 2025</p>
     <p><strong>Context:</strong> EPFL course project</p>
-    </a>
+    <p><strong>Tools:</strong> Computer Vision, PID Control, Trajectory Tracking</p>
   </div>
 </div>
 
