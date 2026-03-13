@@ -23,6 +23,7 @@ Welcome to my GitHub portfolio! Here, I showcase my academic projects.
 </div>
 
 <div class="project-card-horizontal project-card-inactive">
+  <img src="{{ '/assets/images/ipeo.png' | relative_url }}" alt="Multimodal Species">
   <div class="project-content">
     <h3>Multimodal ML for Species Distribution Modeling – EPFL</h3>
     <p><strong>Autumn 2025</strong></p>
