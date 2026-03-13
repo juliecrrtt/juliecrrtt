@@ -40,7 +40,7 @@ Welcome to my GitHub portfolio! Here, I showcase my academic projects.
   </div>
 </div>
 
-<div class="project-card-horizontal  onclick="window.location='/juliecrrtt/thymio-robot/'" style="cursor:pointer;">
+<div class="project-card-horizontal"  onclick="window.location='/juliecrrtt/thymio-robot/'" style="cursor:pointer;">
   <img src="{{ '/assets/images/thymio.png' | relative_url }}" alt="Thymio Robot">
   <div class="project-content">
     <h3>Thymio Robot – EPFL</h3>
