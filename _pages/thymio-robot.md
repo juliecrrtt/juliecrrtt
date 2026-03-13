@@ -23,7 +23,7 @@ classes: wide mk-fullwidth
     </video>
   </div>
   <div style="flex: 1;">
-    <p>Built a complete autonomous navigation system for a Thymio robot as part of the EPFL Basics of Mobile Robotics course. The system detects the robot's pose from an overhead camera, plans an optimal path through a mapped environment using A* and navigates to the goal with real-time 3D obstacle avoidance.</p>
-    <p>State estimation combines camera observations and wheel odometry through an Extended Kalman Filter, keeping the robot localized even when the camera is temporarily unavailable.</p>
+    <p>Built a complete autonomous navigation system for a Thymio robot as part of the EPFL _Basics of Mobile Robotics course_. The system detects the robot's pose from an overhead camera, plans an optimal path through a mapped environment using **A*** and navigates to the goal with real-time 3D **obstacle avoidance**.</p>
+    <p>State estimation combines camera observations and wheel odometry through an **Extended Kalman Filter**, keeping the robot localized even when the camera is temporarily unavailable.</p>
   </div>
 </div>
