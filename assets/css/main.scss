@@ -114,10 +114,15 @@
 
 @media (max-width: 768px) {
   .project-card-horizontal {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;   /* garde image à gauche */
+    align-items: flex-start;
+    gap: 1rem;
   }
-  .project-card-horizontal img { width: 100%; }
+  .project-card-horizontal img {
+    width: 90px;           /* taille fixe petite */
+    height: 90px;
+    object-fit: cover;
+  }
   .project-detail-header { flex-direction: column; }
   .project-detail-img { width: 100%; }
 }
