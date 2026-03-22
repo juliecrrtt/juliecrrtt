@@ -33,7 +33,7 @@ Welcome to my GitHub portfolio! Here, I showcase my academic projects.
 </div>
 
 <div class="project-card-horizontal project-card-inactive">
-  <img src="{{ '/assets/images/chocolate.JPEG' | relative_url }}" alt="Chocolate">
+  <img src="{{ '/assets/images/chocolate.JPG' | relative_url }}" alt="Chocolate">
   <div class="project-content">
     <h3>Chocolate Recognition (Deep Learning) – EPFL</h3>
     <p><strong>Spring 2025</strong></p>
