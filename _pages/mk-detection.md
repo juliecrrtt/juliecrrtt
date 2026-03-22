@@ -32,6 +32,6 @@ The complete system was deployed as a QuPath extension featuring one-click execu
 
 
 ### Publication
-Co-author of conference abstract presented at the Colloque Français d'Intelligence Artificielle en Imagerie Biomédicale (IABM'26), Lyon, March 9–11, 2026.
+Co-author of conference abstract presented at the _Colloque Français d'Intelligence Artificielle en Imagerie Biomédicale_ (IABM'26), Lyon, March 9–11, 2026.
 
 D. Sage, R. Sarkis, L.-F. Celma, M. Krause, **J. Carretti**, C.R. Chardon, N. Dewarrat, T. Smirnova, L. de Leval, O. Naveiras, "Towards Comprehensive Quantification of Morphological and Stromal Features in Bone Marrow Using AI-Driven Image Analysis".
