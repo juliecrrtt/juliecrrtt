@@ -58,7 +58,7 @@ Welcome to my GitHub portfolio! Here, I showcase my academic projects.
 <div class="project-card-horizontal" onclick="window.location='/juliecrrtt/drone-racing/'" style="cursor:pointer;">
   <img src="{{ '/assets/images/drone.png' | relative_url }}" alt="Drone Racing">
   <div class="project-content">
-    <h3>Autonomous Drone Racing</h3>
+    <h3>Autonomous Drone Racing - EPFL</h3>
     <p><strong>Spring 2025</strong></p>
     <p>Build an autonomous navigation pipeline for a quadrotor to complete a randomized gate race.</p>
     <p>Implemented vision-based gate detection and tuned PID control for stable high speed flight in simulation and on hardware.</p>
