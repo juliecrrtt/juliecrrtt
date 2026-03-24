@@ -16,10 +16,18 @@ classes: wide mk-fullwidth
   </div>
 </div>
 
-Developed an autonomous navigation pipeline for a Crazyflie quadrotor to complete a course gate as fast as possible.
 
-In simulation (Webots), implemented a computer vision-based gate detection during the 1st lap using OpenCV, followed by high-speed trajectory tracking once gate positions were identified.
-
-Designed and tuned PID controller to ensure stable flight through randomly placed gates.
+<div style="display: flex; gap: 2rem; align-items: flex-start; margin: 2rem 0;">
+  <div style="flex: 1; min-width: 0;">
+    <video width="100%" controls style="border-radius: 8px;">
+      <source src="{{ '/assets/videos/video-simu-drone.mp4' | relative_url }}" type="video/mp4">
+    </video>
+  </div>
+  <div style="flex: 1;">
+    <p>Developed an autonomous navigation pipeline for a Crazyflie quadrotor to complete a course gate as fast as possible.</p>
+    <p>In simulation (Webots), implemented a computer vision-based gate detection during the 1st lap using OpenCV, followed by high-speed trajectory tracking once gate positions were identified.</p>
+    <p>Designed and tuned PID controller to ensure stable flight through randomly placed gates.</p>
+  </div>
+</div>
 
 Transfered and retuned the algorithms from simulation to real Crazyflie hardware.  
